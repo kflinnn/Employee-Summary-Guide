@@ -34,16 +34,16 @@ function appMenu() {
             message: "Enter your Office Number"
         },
     ])
-    .then(answers) {
+    .then((answers) => {
         const manager = new Manager(
             answers.managerName,
             answers.managerID,
             answers.managerEmail,
             answers.officeNumber,
         )
-        }
+        })
     }
-}
+};
 
 
 
